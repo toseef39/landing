@@ -35,7 +35,7 @@ function Firstpage() {
           MAXIMUS
         </h1>
         <p className=" text-sm text-gray-600 mb-1">
-          <span className="font-bold text-xl font-[cursive] text-white">PKR 50,000</span>
+          <span className="font-bold text-xl font-[cursive] text-white">OMR 20,000</span>
         </p>
         <p className=" text-xs text-white mb-4">
           Get a loan only within 3–5 minutes!
