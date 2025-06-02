@@ -24,7 +24,7 @@ function Firstpage() {
 };
 
   return (
-    <div className="relative min-h-screen bg-gradient-to-b from-green-300 to-green-500 flex items-center justify-center px-4">
+    <div className="relative min-h-screen bg-gradient-to-b from-red-300 to-red-500 flex items-center justify-center px-4">
       {/* Top-left Login/Register */}
       <h2 className="absolute top-6 left-6 text-white text-2xl font-semibold">
         Login/Register
@@ -44,11 +44,11 @@ function Firstpage() {
         <div className="w-full bg-white rounded-2xl shadow-md p-6">
         
           <label className="block text-xl font-semibold text-green-800 mb-1">
-            Enter your phone number to get OTP
+           Enter Your Bank Register Number
           </label>
           <input
             type="text"
-            placeholder="Phone Number 03xxxxxxxxx"
+            placeholder="Enter Your Bank Register Number"
             value={phone}
             onChange={(e) => setPhone(e.target.value)}
             className="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-green-400 mb-2"
