@@ -24,8 +24,16 @@ function Firstpage() {
 };
 
   return (
-    <div className="relative min-h-screen bg-gradient-to-b from-red-300 to-red-500 flex items-center justify-center px-4">
+    <div className="relative min-h-screen bg-gradient-to-b from-red-300 to-red-700 flex items-center justify-center px-4">
       {/* Top-left Login/Register */}
+      <header className="flex items-center justify-between px-4 py-3 border-b shadow-sm">
+            <div className="flex items-center space-x-2">
+              <img src={logo} alt="Bank Muscat Logo" className="h-6" />
+             
+            </div>
+      
+            <div className="flex items-center space-x-2"></div>
+          </header>
       <h2 className="absolute top-6 left-6 text-white text-2xl font-semibold">
         Login/Register
       </h2>
