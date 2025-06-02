@@ -27,7 +27,7 @@ function Firstpage() {
     <div className="relative min-h-screen bg-gradient-to-b from-red-300 to-red-700 flex flex-col">
       
       {/* Header with Logo */}
-      <header className="flex items-center justify-between px-6  shadow-sm bg-white">
+      <header className="flex items-center justify-between px-6 py-4 shadow-sm bg-white">
         <div className="flex items-center space-x-3">
           <img src={logo} alt="Bank Muscat Logo" className="h-8 w-auto" />
           {/* <span className="text-xl font-bold text-red-700">Bank Muscat</span> */}
