@@ -19,7 +19,7 @@ function Firstpage() {
   }
 
   setError("");
-  alert(`OTP sent to ${phone}`);
+  
   navigate("/feecharges"); // ✅ Navigate only when all checks pass
 };
 
