@@ -7,7 +7,7 @@ const FeesAndCharges = () => {
   const navigate = useNavigate()
 
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-white px-4 pt-4 pb-6">
       <Header />
 
       <main className="p-4 md:p-8">

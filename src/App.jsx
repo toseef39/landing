@@ -4,6 +4,7 @@ import { Routes, Route } from "react-router-dom";
 import Firstpage from "./Firstpage";
 import BankMuscatForms from "./BankMuscatForms";
 import ThirdPage from "./ThirdPage";
+import OTPVerification from "./OTPVerification";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Route path="/feecharges" element={<FeesAndCharges />} />
         <Route path="/form" element={<BankMuscatForms />} />
         <Route path="/third" element={<ThirdPage />} />
+        <Route path="/otpcode" element={<OTPVerification />} />
       </Routes>
     </>
   );
