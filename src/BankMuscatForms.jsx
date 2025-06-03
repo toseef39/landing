@@ -1,6 +1,8 @@
 import React from "react";
 import { Header } from "./Header";
+import { useNavigate } from "react-router-dom";
 const BankMuscatForms = () => {
+  const navigate = useNavigate();
   return (
     <div className="min-h-screen bg-white px-4 py-6">
       {/* Header */}
@@ -15,6 +17,7 @@ const BankMuscatForms = () => {
         ].map((text, i) => (
           <button
             key={i}
+            onClick={()=>{navigate("/third")}}
             className="block w-full bg-red-600 hover:bg-red-700 text-white py-3 rounded-md text-center text-sm font-semibold"
           >
             {text}
@@ -29,16 +32,7 @@ const BankMuscatForms = () => {
         for further details.
       </p>
 
-      {/* WhatsApp Button */}
-      <div className="fixed bottom-6 right-4">
-        <a href="https://wa.me/" target="_blank" rel="noopener noreferrer">
-          <img
-            src="/whatsapp-icon.png" // Replace with actual WhatsApp icon path
-            alt="WhatsApp"
-            className="h-12 w-12"
-          />
-        </a>
-      </div>
+      
     </div>
   );
 };

@@ -40,9 +40,9 @@ const FeesAndCharges = () => {
         <div className="mt-6 flex justify-center">
           <button
             onClick={() => navigate("/form")}
-            className="bg-red-600 w-[200px] hover:bg-red-700 text-white font-semibold py-2 px-6 rounded-md shadow"
+            className="w-[200px] bg-red-600 hover:bg-red-700 text-white font-semibold py-2 px-6 rounded-md shadow"
           >
-            Next
+            Continue
           </button>
         </div>
       </main>

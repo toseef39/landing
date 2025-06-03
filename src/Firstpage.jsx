@@ -24,7 +24,7 @@ function Firstpage() {
   };
 
   return (
-    <div className="relative min-h-screen bg-gradient-to-b from-red-300 to-red-700 flex flex-col">
+    <div className="relative min-h-screen bg-gradient-to-b bg-red-600 to-red-700 flex flex-col">
       
       {/* Header with Logo */}
       <header className="flex items-center justify-between px-6 py-4 shadow-sm bg-white">
