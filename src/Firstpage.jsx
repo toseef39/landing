@@ -35,7 +35,7 @@ function Firstpage() {
       </header>
 
       {/* Main Section */}
-      <div className="flex-grow flex items-center justify-center ">
+      <div className="flex-grow flex items-center justify-center px-4 ">
         <div className="w-full max-w-sm flex flex-col items-center text-center">
           <h1 className="text-2xl text-white font-[cursive] mb-2 drop-shadow-md">
             MAXIMUS

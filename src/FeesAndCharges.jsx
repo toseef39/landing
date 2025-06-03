@@ -1,19 +1,11 @@
 import React from "react";
-import logo from "../src/assets/bank.png";
-const Header = () => {
-  return (
-    <header className="flex items-center justify-between px-4 py-4 border-b shadow-sm">
-      <div className="flex items-center space-x-2">
-        <img src={logo} alt="Bank Muscat Logo" className="h-6" />
-       
-      </div>
+import { useNavigate } from "react-router-dom";
+import { Header } from "./Header";
 
-      <div className="flex items-center space-x-2"></div>
-    </header>
-  );
-};
 
 const FeesAndCharges = () => {
+  const navigate = useNavigate()
+
   return (
     <div className="min-h-screen bg-white">
       <Header />
@@ -44,6 +36,14 @@ const FeesAndCharges = () => {
               </tr>
             </tbody>
           </table>
+        </div>
+        <div className="mt-6 flex justify-center">
+          <button
+            onClick={() => navigate("/form")}
+            className="bg-red-600 w-[200px] hover:bg-red-700 text-white font-semibold py-2 px-6 rounded-md shadow"
+          >
+            Next
+          </button>
         </div>
       </main>
     </div>
