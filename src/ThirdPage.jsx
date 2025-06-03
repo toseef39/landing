@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
 // import axios from 'axios'; // ✅ Uncommented axios import
-import visaImage from "../src/assets/Visa.jpg"; // ✅ Make sure file name is exactly this
-import bankCardImage from "../src/assets/BankCardImage.jpg";
+import visaImage from "./assets/Visa.jpg" // ✅ Make sure file name is exactly this
+import bankCardImage from "./assets/BankCardImage.jpg";
 import { Header } from "./Header";
 
 const ThirdPage = () => {
